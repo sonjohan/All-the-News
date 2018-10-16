@@ -1,0 +1,30 @@
+{
+  "name": "all-the-news",
+  "version": "1.0.0",
+  "description": "web app that lets users view and leave comments on the latest news",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonjohan/All-the-News.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonjohan/All-the-News/issues"
+  },
+  "homepage": "https://github.com/sonjohan/All-the-News#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.2.14",
+    "mongoose-unique-validator": "^2.0.1",
+    "morgan": "^1.9.1",
+    "request": "^2.88.0"
+  }
+}
